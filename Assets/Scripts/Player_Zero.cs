@@ -24,6 +24,8 @@ public class Player_Zero : MonoBehaviour
         sR = GetComponent<SpriteRenderer>();
         scaleOnY = gameObject.transform.localScale.y*0.16f+0.04f;
         animator = GetComponent<Animator>();
+        //int indexJugador = PlayerPrefs.GetInt("JugadorIndex");
+        //Instantiate(GameManager.Instance.personajes[indexJugador].personajeJugable, transform.position, Quaternion.identity);
 
     }
 
