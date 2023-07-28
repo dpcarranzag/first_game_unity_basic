@@ -48,7 +48,7 @@ public class FruitZero: MonoBehaviour
     {
         flag += 1;
 
-        if (flag == 3)
+        if (flag == 5)
         {
             SceneManager.LoadScene(3);
 

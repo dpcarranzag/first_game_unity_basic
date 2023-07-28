@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a70243f768aa387088311d111793320a, type: 3}
+  m_Name: Sapito2
+  m_EditorClassIdentifier: 
+  personajeJugable: {fileID: 5268798549324498179, guid: 9c80fa34735cc8bcaa1cdeb9b72dffce, type: 3}
+  imagen: {fileID: -2526832996998184344, guid: 3750f45c844123341b9a777a96cb1eca, type: 3}
+  nombre: Sapito 2
