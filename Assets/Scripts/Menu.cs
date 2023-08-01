@@ -11,7 +11,7 @@ public class Menu : MonoBehaviour
     {
         
         scene = SceneManager.GetActiveScene().buildIndex;
-        if (scene == 0 || scene == 5 || scene == 6)
+        if (scene == 0 || scene == 5 || scene == 6 || scene == 7)
         {
             GameObject.FindGameObjectWithTag("MainMusic").GetComponent<Music>();
         }
@@ -34,6 +34,11 @@ public class Menu : MonoBehaviour
     }
 
     public void Options()
+    {
+        SceneManager.LoadScene(7);
+    }
+
+    public void Levels()
     {
         SceneManager.LoadScene(1);
     }

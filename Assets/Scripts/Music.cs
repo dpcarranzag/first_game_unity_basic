@@ -21,7 +21,15 @@ public class Music : MonoBehaviour
     {
         _audioSource.Stop();
     }
-    
+
+    public void PauseMusic()
+    {
+        if (_audioSource.isPlaying)
+            _audioSource.Pause();
+        else
+            _audioSource.UnPause();
+    }
+
     void Start()
     {
         PlayMusic();

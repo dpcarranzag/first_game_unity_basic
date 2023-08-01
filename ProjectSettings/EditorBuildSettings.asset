@@ -13,7 +13,7 @@ EditorBuildSettings:
     guid: 590f605fed1463043828134c464ad21f
   - enabled: 1
     path: Assets/Scenes/Level-Select.unity
-    guid: 2cbc7cfdf86e5b2448a6f5e09efbcec2
+    guid: 5d611ce7173f26a4e95fa57edc64c7bd
   - enabled: 1
     path: Assets/Scenes/SceneZero.unity
     guid: d2ecbae696fff75e5ba818461a3bccff
@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/GameOver.unity
     guid: be8291ba79a47984e8fc784ae167c1d4
   - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: 2cbc7cfdf86e5b2448a6f5e09efbcec2
+  - enabled: 0
     path: Assets/Scenes/Scene-Options.unity
     guid: e8532d5234388c590866d4e5ea7cfed6
   m_configObjects: {}

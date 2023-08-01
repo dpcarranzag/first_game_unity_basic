@@ -1492,7 +1492,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 803587064}
         m_TargetAssemblyTypeName: Menu, Assembly-CSharp
-        m_MethodName: Options
+        m_MethodName: Levels
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1550,7 +1550,7 @@ GameObject:
   - component: {fileID: 1905668561839144488}
   - component: {fileID: 1905668561839144489}
   m_Layer: 5
-  m_Name: BlackOptionsButton
+  m_Name: LevelButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1829,10 +1829,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4289447476164517616}
-        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
-        m_MethodName: changeScene
-        m_Mode: 3
+      - m_Target: {fileID: 803587064}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: Options
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1877,7 +1877,7 @@ GameObject:
   - component: {fileID: 4289447476164517615}
   - component: {fileID: 4289447476164517616}
   m_Layer: 5
-  m_Name: BlackContinueButton
+  m_Name: OptionButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
