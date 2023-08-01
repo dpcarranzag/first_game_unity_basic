@@ -96,7 +96,7 @@ objetivo 1: pasar los e niveles sin perder las tres vidas que tiene el personaje
    2.2 Menú pausa:<br>
       -En el menú pausa se puede volver a la interfaz de menú y ver el control de audio<br>
    2.3 Menú opciones:<br>
-      -En el menú opciones puede verse la opción para escoge el jugador 
+      -En el menú opciones puede verse la opción para escoge el jugador <br>
    2.4 Menú niveles:<br>
       -En el menú niveles puede verse la opción para escoge los tres niveles que tiene el juego
 
