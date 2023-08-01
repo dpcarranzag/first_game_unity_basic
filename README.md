@@ -76,15 +76,12 @@ objetivo 1: pasar los e niveles sin perder las tres vidas que tiene el personaje
 • flecha izquierda <br>
 • espacio para saltar
    
-2. <b>GUI Interfaces:</b><br>
--Wireframe <br>
+2. <b>GUI Interfaces:</b>
 
 ![alt text][wireframe]  
 ![alt text][Level1]  
 <!-- Referencias para las imagenes -->
 [wireframe]: /Interfaces/wireframes.png "Wireframe de las UI"
-
--Nivel 1 <br>
 [Level1]: /Interfaces/Pantalla_Level1.png "Esquema para el nivel 1"
 
    2.1 Menú inicio:<br>
