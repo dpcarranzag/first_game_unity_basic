@@ -80,10 +80,17 @@ objetivo 1: pasar los e niveles sin perder las tres vidas que tiene el personaje
 
 ![alt text][wireframe]  
 ![alt text][Level1]  
+![alt text][Menu]
+![alt text][Niveles]
+![alt text][Opciones]
+![alt text][Pausa]
 <!-- Referencias para las imagenes -->
 [wireframe]: /Interfaces/wireframes.png "Wireframe de las UI"
 [Level1]: /Interfaces/Pantalla_Level1.png "Esquema para el nivel 1"
-
+[Menu]: /Interfaces/Pantalla_Menú.png "Esquema para el menú inicial"
+[Niveles]: /Interfaces/Pantalla_Niveles.png "Esquema para la pantalla niveles"
+[Opciones]: /Interfaces/Pantalla_Opciones.png "Esquema para la pantalla opciones"
+[Pausa]: /Interfaces/Pantalla_Pausa.png "Esquema para pantalla pausa"
    2.1 Menú inicio:<br>
       -En el despliegue menú estan las opciones de Jugar, Opciones, Niveles y salir <br>
    2.2 Menú pausa:<br>
