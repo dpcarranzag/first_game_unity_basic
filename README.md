@@ -81,8 +81,8 @@ objetivo 1: pasar los e niveles sin perder las tres vidas que tiene el personaje
 ![alt text][wireframe]  
 ![alt text][Level1]  
 <!-- Referencias para las imagenes -->
-[wireframe]: /Interfaces/Readme_Img/wireframes.png "Wireframe de las UI"
-[Level1]: /Assets/Readme_Img/Level1.png "Esquema para el nivel 1"  
+[wireframe]: /Interfaces/wireframes.png "Wireframe de las UI"
+[Level1]: /Assets/Readme_Img/wireframes.png "Esquema para el nivel 1"
 
    2.1 Menú inicio:<br>
       -En el despliegue menú estan las opciones de Jugar, Opciones, Niveles y salir <br>
