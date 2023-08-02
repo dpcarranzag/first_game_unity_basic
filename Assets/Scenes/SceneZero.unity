@@ -428,9 +428,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 361045495}
+  - component: {fileID: 361045497}
   m_Layer: 0
   m_Name: GameManagement
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -448,8 +449,21 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &361045497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 361045494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2e31022af1a17deb830d88e87eef716, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  personajes: []
 --- !u!1 &373173771
 GameObject:
   m_ObjectHideFlags: 0
@@ -6519,7 +6533,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &828313077
 GameObject:
@@ -6767,10 +6781,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1001198948}
-  - component: {fileID: 1001198949}
   m_Layer: 0
   m_Name: Character
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6790,18 +6803,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1001198949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1001198947}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4915be1cbc73f91828512727914d62ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1064287256
 GameObject:
   m_ObjectHideFlags: 0
@@ -8744,6 +8745,10 @@ PrefabInstance:
     - target: {fileID: 5268798549324498179, guid: cfa76825ff9438a9ab0a9c757ed0b5e4, type: 3}
       propertyPath: m_Name
       value: Sapito
+      objectReference: {fileID: 0}
+    - target: {fileID: 5268798549324498179, guid: cfa76825ff9438a9ab0a9c757ed0b5e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

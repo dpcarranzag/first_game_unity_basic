@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-   public static GameManager Instance;
+    public static GameManager Instance;
 
-    public List<Personajes> personajes;
+    public List<Personajes>personajes;
 
+    // Start is called before the first frame update
     private void Awake()
     {
-        if (GameManager.Instance == null)
-        {
-            GameManager.Instance = this;
-            DontDestroyOnLoad(this.gameObject);
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
-    }
+    if(GameManager.Instance == null)
+    {
+        GameManager.Instance = this;
+        DontDestroyOnLoad(this.gameObject);
 
+    }
+    else {
+        Destroy(gameObject);
+    }
+    }
 
 }

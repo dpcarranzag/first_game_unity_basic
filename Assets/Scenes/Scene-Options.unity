@@ -500,7 +500,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 611104818}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e31022af1a17deb830d88e87eef716, type: 3}
+  m_Script: {fileID: 11500000, guid: 15aba608e6a5f146f930842264bc5406, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   personajes:
