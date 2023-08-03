@@ -29,6 +29,7 @@ public class Fruit_Two : MonoBehaviour
             sonido.Play();
             GetComponent<SpriteRenderer>().enabled = false;
             gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            Score.score += 1;
             Destroy(gameObject);
             countSceneTwo();
         }
