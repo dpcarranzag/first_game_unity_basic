@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private GameObject defaultCharacter;
+    private GameObject actualCharacter; // Mantiene el Prefab del personaje con el que se desea jugar
+
     public static GameManager Instance;
 
     public List<Personajes>personajes;
@@ -21,5 +24,12 @@ public class GameManager : MonoBehaviour
         Destroy(gameObject);
     }
     }
+    public static GameManager getInstance(){
+        return GameManager.Instance;
+    }
+    ///////////////////////////////////////////////
+
+
+
 
 }
