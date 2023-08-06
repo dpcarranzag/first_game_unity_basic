@@ -5235,6 +5235,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7647596083480795950, guid: 3aa3482a89b84fe468900f2609d6b467, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 418
+      objectReference: {fileID: 0}
+    - target: {fileID: 7647596083480795950, guid: 3aa3482a89b84fe468900f2609d6b467, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 228
+      objectReference: {fileID: 0}
     - target: {fileID: 7718161191291309915, guid: 3aa3482a89b84fe468900f2609d6b467, type: 3}
       propertyPath: m_Name
       value: Pausa Live Score
