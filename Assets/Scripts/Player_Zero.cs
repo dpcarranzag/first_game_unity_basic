@@ -46,9 +46,9 @@ public class Player_Zero : MonoBehaviour
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, salto);
             animator.SetBool("jump", true);
-            Debug.Log("UP - enElPiso: ");
+            //Debug.Log("UP - enElPiso: ");
             if(hasJump){
-                Debug.Log("hasjump");
+                //Debug.Log("hasjump");
                 // Esto se ejecuta cuando YA HA SALTADO por primera vez
                 animator.SetBool("doubleJump", true);
                 hasJump  = false;
