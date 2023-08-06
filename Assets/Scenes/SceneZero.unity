@@ -461,11 +461,10 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 340586883}
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e31022af1a17deb830d88e87eef716, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  personajes: []
+  m_CellSize: {x: 1, y: 1, z: 1}
+  m_CellGap: {x: 0, y: 0, z: 0}
+  m_CellLayout: 0
+  m_CellSwizzle: 0
 --- !u!1 &373173771
 GameObject:
   m_ObjectHideFlags: 0
@@ -8064,6 +8063,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3537665725223694825, guid: 3aa3482a89b84fe468900f2609d6b467, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 82
+      objectReference: {fileID: 0}
+    - target: {fileID: 4930689066027894312, guid: 3aa3482a89b84fe468900f2609d6b467, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 81
+      objectReference: {fileID: 0}
     - target: {fileID: 7313196999732767237, guid: 3aa3482a89b84fe468900f2609d6b467, type: 3}
       propertyPath: m_Pivot.x
       value: 0

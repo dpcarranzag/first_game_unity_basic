@@ -46,7 +46,7 @@ public class Tramp : MonoBehaviour
             else if (lifes == 0)
             {
 
-                SceneManager.LoadScene(2);
+                SceneManager.LoadScene(6);
             }
         }
         
